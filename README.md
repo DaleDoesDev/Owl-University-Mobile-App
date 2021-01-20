@@ -1,7 +1,7 @@
 # Owl-University-Mobile-App
 A university mobile app developed for students of a fictional university, Owl University.
 
-The app was originally created to satisfy requirements for a native Android mobile development course specifiying the use of Android Studio, Java with XML, and an SQLite database. I chose to modify the app at a later point in the degree program to satisfy capstone requirements, which resulted in the development of several new features that are now included. 
+The app was originally created to satisfy requirements for a native Android mobile development course specifying the use of Android Studio, Java with XML, and an SQLite database. I chose to modify the app at a later point in the degree program to satisfy capstone requirements, which resulted in the development of several new features that are now included. 
 
 The app's username and password for the login are both "admin".
 
