@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_capstone">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Owl University"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:configChanges="orientation"
+        android:screenOrientation="portrait"
+
+        android:theme="@style/Theme.My_App">
+        <receiver
+            android:name="com.example.my_capstone.MyReceiver2"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity android:name="com.example.my_capstone.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.my_capstone.TermActivity"
+            android:label="Terms"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.MainActivity" />
+        <activity
+            android:name="com.example.my_capstone.CourseActivity"
+            android:label="Courses"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.MainActivity" />
+        <activity
+            android:name="com.example.my_capstone.ReportsActivity"
+            android:label="Reports"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.MainActivity" />
+        <activity
+            android:name="com.example.my_capstone.SearchActivity"
+            android:label="Mentor Search"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.MainActivity" />
+        <activity
+            android:name="com.example.my_capstone.AssessmentActivity"
+            android:label="Assessments"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.MainActivity" />
+        <activity
+            android:name="com.example.my_capstone.TermDetailsActivity"
+            android:label="Term Details"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.TermActivity" />
+        <activity
+            android:name="com.example.my_capstone.CourseDetailsActivity"
+            android:label="Course Details"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.CourseActivity" />
+        <activity
+            android:name="com.example.my_capstone.AssessmentDetailsActivity"
+            android:label="Assessment Details"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.example.my_capstone.AssessmentActivity" />
+    </application>
+
+</manifest>
